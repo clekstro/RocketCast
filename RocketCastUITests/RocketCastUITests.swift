@@ -58,7 +58,7 @@ class RocketCastUITests: XCTestCase {
         self.app.buttons["Button"].tap()
         waitForExpectationsWithTimeout(5, handler: nil)
         
-        XCTAssert(!episodesScreen.exists)
+        XCTAssert(episodesScreen.exists)
     }
 
     
